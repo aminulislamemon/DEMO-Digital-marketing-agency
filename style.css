@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+    background: linear-gradient(to top, #FFE5E5, #F5FFFE, #FCF3FF, #FFF4E5);
+}
+header{
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+header>nav>h1{
+    font-size: 2rem;
+    color: #E71D36;
+}
+header>nav{
+    display: flex;
+}
+header>nav>ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+header>nav>ul>li{
+    list-style: none;
+    margin-left: 20px;
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 5px;
+    color: #011627;
+}
+header>nav>ul>li>a:hover{
+    color: #E71D36;
+    border-bottom: 3px solid #E71D36;
+
+}
+#contact-btn{
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 50px;
+    background-color: #E71D36;
+}
+
+/* Home section area  start */
+.home{
+    display: flex;
+    width: 100%;
+    height: 570px;
+}
+.content-text{
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+.content-text>h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 15px;
+}
+.content-text>h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.content-text>p{
+    font-size: 1rem;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+}
+.content-text>h1>span{
+    color: #E71D36;
+}
+.content-btns{
+    display: flex;
+    padding-bottom: 50px;
+}
+#get-start-btn{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #E71D36;
+}
+.content-btns>img{
+    margin-left: 30px;
+}
+.content-image{
+    width: 50%;
+}
+#wtch-btn{
+    color: #E71D36;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.content-image>img{
+    width: 70%;
+}
+
+/* ============Home section area end ==============*/
+
+
+/* ===========Our work features============= */
+.work-feature{
+    width: 100%;
+    height: 2000px;
+    background-color: #fdfffc;
+}
+.work-feature>h1{
+    font-size: 2rem;
+    padding-top: 50px;
+    text-align: center;
+}
+.companies{
+    width: 70%;
+    height: 100px;
+    background-color: #FFFBFB;
+    margin: 20px auto;
+    box-shadow: 2px 2px 10px #e0dfdf;
+    border-radius: 5px;
+    text-align: center;
+}
+.companies>img{
+    width: 12%;
+    margin-top: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.netflix{
+    margin-bottom: 10px;
+}
+
+/* ==============Feature are start ==================*/
+.feature-text{
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 130px;
+}
+.feature-text>h1{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+.feature-text>p{
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+
+.text-list>ul>li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.achievement{
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.audience>h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #FF1D03;
+}
+.audience>p{
+    padding-top: 10px;
+}
+.project>h1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #2EC4B6;
+}
+.project>p{
+    padding-top: 10px;
+}
+.project{
+    margin-left: 50px;
+}
+.explore-btn{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: #2EC4B6;
+    box-shadow: 3px 3px 15px #2ec4b67a;
+}
+.feature-content{
+    width: 50%;
+    float: right;
+    margin-top: -300px;
+}
+.feature-one{
+    width: 33%;
+    height: 250px;
+    margin-top: -260px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #e0dfdf;
+}
+.feature-one>img{
+    width: 13%;
+    background-color: #FFECEA;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 15px;
+}
+.feature-one>h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+.feature-one>p{
+    font-size: 0.8rem;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
+    padding-bottom: 30px;
+}
+.feature-one>a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #E71D36;
+}
+.feature-two{
+    width: 33%;
+    height: 250px;
+    margin-top: -200px;
+    margin-right: 200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #e0dfdf;
+    float: right;
+}
+.feature-two>img{
+    width: 13%;
+    background-color: #D2FFFB;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 15px;
+}
+.feature-two>h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+.feature-two>p{
+    font-size: 0.8rem;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
+    padding-bottom: 30px;
+}
+.feature-two>a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #2EC4B6;
+}
+
+.feature-three{
+    width: 33%;
+    height: 245px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #e0dfdf;
+    float: right;
+}
+.feature-three>img{
+    width: 13%;
+    background-color: #D2FFFB;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 15px;
+}
+.feature-three>h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+.feature-three>p{
+    font-size: 0.8rem;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
+    padding-bottom: 30px;
+}
+.feature-three>a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #2EC4B6;
+}
+
+.feature-four{
+    width: 33%;
+    height: 250px;
+    margin-top: -195px;
+    margin-right: 200px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px #e0dfdf;
+    float: right;
+}
+.feature-four>img{
+    width: 13%;
+    background-color: #FFECEA;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 16px 15px;
+}
+.feature-four>h3{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+.feature-four>p{
+    font-size: 0.8rem;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
+    padding-bottom: 30px;
+}
+.feature-four>a{
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 1rem;
+    color: #E71D36;
+}
+
+/* ======================Feature area end===================== */
+
