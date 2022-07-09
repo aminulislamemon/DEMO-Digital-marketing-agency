@@ -118,7 +118,7 @@ header>nav>ul>li>a:hover{
 /* ===========Our work features============= */
 .work-feature{
     width: 100%;
-    height: 1000px;
+    height: 1200px;
     background-color: #fdfffc;
 }
 .work-feature>h1{
@@ -348,3 +348,14 @@ header>nav>ul>li>a:hover{
 
 /* ======================Feature area end===================== */
 
+.case-study{
+    padding-top: 200px;
+    margin-left: 20px;
+}
+.case-study>h1{
+    font-size: 2rem;
+    padding: 10px;
+    background-color: #D2FFFB;
+    box-shadow: 2px 2px 15px #FFECEA;
+    
+}
