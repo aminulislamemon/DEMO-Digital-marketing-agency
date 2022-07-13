@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
 }
 body{
@@ -118,8 +118,8 @@ header>nav>ul>li>a:hover{
 /* ===========Our work features============= */
 .work-feature{
     width: 100%;
-    height: 1200px;
     background-color: #fdfffc;
+    padding-bottom: 50px;
 }
 .work-feature>h1{
     font-size: 2rem;
@@ -346,16 +346,382 @@ header>nav>ul>li>a:hover{
     color: #E71D36;
 }
 
-/* ======================Feature area end===================== */
+/* ======================Feature area end ===================== */
 
 .case-study{
-    padding-top: 200px;
-    margin-left: 20px;
+    width: 100%;
+    height: 445px;
+    background-color: #fdfffc;
 }
-.case-study>h1{
-    font-size: 2rem;
-    padding: 10px;
-    background-color: #D2FFFB;
-    box-shadow: 2px 2px 15px #FFECEA;
+
+.case-study nav>p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #E71D36;
+    margin-left: 100px;
+
+}
+.case-study nav{
+display: flex;
+padding-top: 50px;
+}
+.fa-angle-left, .fa-angle-right{
+    padding: 10px 10px;
+    background-color: #FFF3F5;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-angle-right{
+    background-color: #E71D36;
+    color: #ffffff;
+}
+.fa-angle-left{
+    margin-left: 60%;
+}
+.client-result{
+    width: 100%;
+    display: flex;
+}
+.client-result-text>h1{
+    margin-left: 100px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.client-result-text>p{
+    margin-left: 100px;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+/* ==============STORIES========= */
+
+.client-result img{
+    width: 50%;
+}
+.client-stories{
+    display: flex;
+    margin-top: 20px;
     
 }
+.story-one{
+    margin-left: 50px;
+}
+.story-one, .story-two, .story-three, .story-four{
+    height: 250px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #E71D36;
+}
+.story-two, .story-three, .story-four{
+    margin-left: 15px;
+}
+.story-one{
+    background-image: url(images/clients-img/client-one.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} .story-two{
+    background-image: url(images/clients-img/client-two.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} .story-three{
+    background-image: url(images/clients-img/client-three.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} .story-four{
+    background-image: url(images/clients-img/client-four.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rating{
+    width: 100%;
+    height: 65px;
+    margin-top: 185px;
+    background-image: linear-gradient(#01162700, #011627a0, #011627);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rating>p{
+    font-size:  12px;
+    font-weight: 400;
+    margin-left: 30px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+.rating> .fa-solid{
+    padding: 5px 15px;
+    background-color: #E71D36;
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-left: 45px;
+}
+
+/* ==============STORIES area end========= */
+
+/* ================PORTFOLIO SECTION START============= */
+.portfolio{
+    width: 100%;
+    text-align: center;
+    background-color: #fdfffc;
+    padding-bottom: 30px;
+}
+.portfolio>h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.portfolio>nav{
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-left: 26%;
+}
+.portfolio>nav>ul{
+    display: flex;
+}
+.portfolio>nav>ul>li{
+    list-style: none;
+}
+.portfolio>nav>ul>li>a{
+    text-decoration: none;
+    padding: 5px;
+    margin-left: 20px;
+    color: #011627;
+    text-align: left;
+}
+.portfolio>nav>ul>li>a:hover{
+    border-bottom: 3px solid #E71D36;
+}
+#focus{
+    border-bottom: 3px solid #E71D36;
+}
+.ui-designs{
+    width: 100%;
+    padding-bottom: 40px;
+}
+.ui-designs img{
+    width: 25%;
+    padding: 5px;
+}
+#view-more{
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #2EC4B6;
+    border-radius: 7px;
+    box-shadow: 3px 3px 10px rgba(46, 196, 182, 0.48);
+}
+
+/* ================PORTFOLIO SECTION END============= */
+
+/* ================BLOG SECTION START============= */
+
+.blog{
+    width: 100%;
+    background-color: #fdfffc;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.blog>h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+.blog> .fa-angle-left{
+    margin-left: 720px;
+}
+
+.blog-posts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.blog-one{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    background-color: #FFF8F8;
+    border: 0.5px solid #E71D3645;
+    border-radius: 20px;
+    margin-left: 225px;
+}
+.blog-one>img{
+    width: 100px;
+    height: 155px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E71D36;
+    
+}
+.post-detail{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#dates{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #011627;
+    padding-bottom: 5px;
+}
+.post-detail>h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #011627;
+    padding-bottom: 10px;
+}
+#post-pri-txt{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.post-detail>a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #FF1D03;
+}
+
+.blog-two{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    background-color: #F8FFFE;
+    border: 0.5px solid #2EC4B680;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.blog-two>img{
+    width: 100px;
+    height: 155px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #2EC4B6;
+}
+.post-detail{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#dates{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #011627;
+    padding-bottom: 5px;
+}
+.post-detail>h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #011627;
+    padding-bottom: 10px;
+}
+#post-pri-txt{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+#read-more-two{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #2EC4B6;
+}
+.blog-three{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    background-color: #F8FFFE;
+    border: 0.5px solid #2EC4B680;
+    border-radius: 20px;
+    margin-left: 225px;
+    margin-top: 10px;
+}
+.blog-three>img{
+    width: 100px;
+    height: 155px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #2EC4B6;
+}
+.post-detail{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#dates{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #011627;
+    padding-bottom: 5px;
+}
+.post-detail>h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #011627;
+    padding-bottom: 10px;
+}
+#post-pri-txt{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.post-detail>a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #2EC4B6;
+}
+
+.blog-four{
+    width: 400px;
+    height: 180px;
+    display: flex;
+    background-color: #FFF8F8;
+    border: 0.5px solid #E71D3645;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.blog-four>img{
+    width: 100px;
+    height: 155px;
+    margin: 10px;
+    border-radius: 10px;
+    border-bottom: 5px solid #E71D36;
+}
+.post-detail{
+    text-align: left;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+#dates{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: #011627;
+    padding-bottom: 5px;
+}
+.post-detail>h2{
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #011627;
+    padding-bottom: 10px;
+}
+#post-pri-txt{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.post-detail>a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #E71D36;
+}
+
+/* ================BLOG SECTION END============= */
